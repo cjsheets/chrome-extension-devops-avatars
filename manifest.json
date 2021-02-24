@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "DevOps Avatars",
+  "version": "0.1.0",
+  "description": "Load custom avatars in place of default icons",
+  "permissions": ["tabs", "webRequest", "webRequestBlocking", "*://*.azure.com/", "*://*.vsassets.io/"],
+  "background": {
+    "scripts": ["service-worker.js"]
+  },
+  "icons": {
+    "16": "images/icon-16.png",
+    "24": "images/icon-24.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "64": "images/icon-64.png",
+    "128": "images/icon-128.png"
+  }
+}
